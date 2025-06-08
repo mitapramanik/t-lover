@@ -1,0 +1,195 @@
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.abo {
+  margin: 5%;
+}
+
+.back {
+  background-image: url(imges/the-cover.jpg);
+}
+
+.facebook-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.facebook-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.left-section i {
+  margin-right: 10px;
+}
+
+.right-section {
+  display: flex;
+  gap: 15px;
+}
+
+.right-section a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.right-section a:hover {
+  color: #fff;
+}
+
+
+
+body {
+  font-family: "Playwrite TZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img {
+  width: 90.4%;
+  margin-top: 5%;
+}
+
+.body {
+  font-weight: bolder;
+}
+
+.contact-fm {
+  display: none;
+}
+.kaku{
+  width: 50%;
+}
+.vlog-1{
+  width: 100%;
+}
+.kaka{
+  padding-left: 20%;
+}
+.img-1{
+  width: 50%;
+}
+
+footer {
+  background-color: #1c1e22;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #bbb;
+  margin: 0 15px;
+  text-decoration: none;
+}
+footer a:hover {
+  color: white;
+}
+.footer-logo {
+  display: inline-block;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.assalamualaikum{
+  padding-bottom: 30%;
+}
+
+.ffl{
+   font-size: 140%;
+}
+
+.aria-51{
+  text-align: center;
+  margin-top: 10%;
+}
+
+@media only screen and (max-width:688px)
+/* This Is For Mobile. */{
+ #vlogs{
+  flex-direction: row;
+   }
+    .email-c , .name-c {
+    width: 100%;
+    }
+
+  .contact-fm {
+    display: list-item;
+    padding: 20%;
+    margin-right:  35%;
+  }
+
+  .reel {
+    width: 100%;
+  }
+
+
+  .vlog-1 {
+   width: 124%;
+
+
+  }
+
+  .contact {
+    display: none;
+  }
+
+
+  .kaku {
+    margin-left: -20%;
+    width: 124%;
+  }
+
+  #reels {
+    padding-right: 5%;
+  }
+
+  .img-ot {
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+
+.assalamualaikum{
+  margin-bottom: 200%;
+}
+.jibon{
+  font-size: 100%;
+}
+ #mita{
+  display: flex;
+  gap: 2%;
+}
+.hi{
+  width: 130%;
+}
+.hello{
+  width: 100%;
+  padding-right: 20%;
+  margin-bottom: 60%;
+}
+
+}
